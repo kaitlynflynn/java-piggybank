@@ -28,5 +28,7 @@ public class Dollar implements CashMoney
     // returns $ in front of my amount
     @Override
     public String getDetails()
+    {
         return "$" + amount;
+    }
 }
