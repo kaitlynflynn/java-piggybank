@@ -1,6 +1,6 @@
 package com.lambdaschool;
 
-// Created interface for CashMoney
+// Created interface for CashMoney which gets implemented in each of my classes
 
 public interface CashMoney
 {

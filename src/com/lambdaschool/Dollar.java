@@ -4,6 +4,7 @@ package com.lambdaschool;
 
 public class Dollar implements CashMoney
 {
+    // finalizes worth
     private static final double isWorth = 1.00;
     private int amount;
 
