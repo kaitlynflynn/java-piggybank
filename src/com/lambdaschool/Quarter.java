@@ -1,19 +1,19 @@
 package com.lambdaschool;
 
-// A Dollar worth $1.00
+// A Quarter worth $0.25
 
-public class Dollar implements CashMoney
+public class Quarter
 {
-    private static final double isWorth = 1.00;
+    private static final double isWorth = 0.25;
     private int amount;
 
     // sets my amount at 1
-    public Dollar()
+    public Quarter()
     {
         amount = 1;
     }
 
-    public Dollar(int amount)
+    public Quarter(int amount)
     {
         this.amount = amount;
     }
@@ -25,10 +25,10 @@ public class Dollar implements CashMoney
         return isWorth * amount;
     }
 
-    // returns $ in front of my amount
+    // returns amount of Quarters
     @Override
     public String getDetails()
     {
-        return "$" + amount;
+        return amount + " Quarter";
     }
 }

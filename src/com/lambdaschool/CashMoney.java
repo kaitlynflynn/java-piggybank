@@ -4,6 +4,6 @@ package com.lambdaschool;
 
 public interface CashMoney
 {
-    public double getValue();
+    public double getWorth();
     public String getDetails();
 }
