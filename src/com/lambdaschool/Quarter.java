@@ -2,7 +2,7 @@ package com.lambdaschool;
 
 // A Quarter worth $0.25
 
-public class Quarter
+public class Quarter implements CashMoney
 {
     private static final double isWorth = 0.25;
     private int amount;
