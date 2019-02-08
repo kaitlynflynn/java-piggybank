@@ -2,7 +2,7 @@ package com.lambdaschool;
 
 // A Dollar worth $1.00
 
-public class Dollar
+public class Dollar implements CashMoney
 {
     private static final double isWorth = 1.00;
     private int amount;
@@ -27,6 +27,6 @@ public class Dollar
 
     // returns $ in front of my amount
     @Override
-    public String getDollarSign()
+    public String getDetails()
         return "$" + amount;
 }
